@@ -1,0 +1,16 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Santiago Núñez-Cacho Solans
+	email = snunezcacho@gmail.com
+	signingkey = E1E936071C8FD2B5
+# Please adapt and uncomment the following lines:
+#	name = Santiago Núñez-Cacho
+#	email = santiago.nunezcacho@softonic.com
+[commit]
+	gpgsign = true
+[core]
+	editor = /usr/bin/vim
+[diff "sopsdiffer"]
+	textconv = sops -d
+[gpg]
+	program = gpg
